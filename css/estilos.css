@@ -1,6 +1,8 @@
 .portada{
     background-image: url(Imagenes/fondo.jpeg);
-    width: 100%;           
+    position: absolute;
+    width: 100%;
+    
 }
 
 .bg-menu{
@@ -11,5 +13,17 @@
 }
 
 .container-fluid{
+    margin: 0px;
     padding: 0px;
+}
+
+.navbar-brand-font{
+    font-family: Fuente_Cursiva;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: "Fuente_Cursiva";
+    src: url("Fuentes/Fuente_Portada.ttf");
 }
