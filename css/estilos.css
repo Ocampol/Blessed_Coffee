@@ -1,6 +1,15 @@
 .portada{
     background-image: url(Imagenes/fondo.jpeg);
-    width: 100%;
-    margin-top: 152px;
-        
+    width: 100%;           
+}
+
+.bg-menu{
+    color: #513631;
+    background: rgb(196,173,163);
+    background: linear-gradient(180deg, rgba(196,173,163,1) 0%, rgba(248,244,241,1) 87%);
+    padding: 57px 10px 55px 10px;
+}
+
+.container-fluid{
+    padding: 0px;
 }
